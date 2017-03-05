@@ -1,5 +1,6 @@
 package com.scene.model;
 
+import org.springframework.stereotype.Component;
 import sun.applet.Main;
 
 import javax.websocket.Session;
@@ -12,6 +13,7 @@ import java.util.Map;
 /**
  * Created by 11723 on 2017/2/6.
  */
+@Component
 public class DataSource {
     private static List<String> messages = new ArrayList<>();
     public static Map<Session,Boolean> sessions = new HashMap<>();

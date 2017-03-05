@@ -1,6 +1,7 @@
 package com.scene.service;
 
 import com.scene.model.DataSource;
+import sun.misc.PostVMInitHook;
 
 import javax.websocket.OnClose;
 import javax.websocket.OnError;
@@ -8,6 +9,7 @@ import javax.websocket.OnMessage;
 import javax.websocket.OnOpen;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
+import java.net.SocketTimeoutException;
 
 @ServerEndpoint("/WebSocket/message")
 public class MessageWebSocket {
@@ -16,7 +18,6 @@ public class MessageWebSocket {
     public void onOpen(Session session) {
         DataSource.sessions.put(session,false);
     }
-
     @OnClose
     public void onClose(Session session) {
         DataSource.sessions.remove(session);

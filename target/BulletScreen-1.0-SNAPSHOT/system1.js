@@ -288,7 +288,7 @@ CreateFireworks.prototype = {
             "width:" + this.size + 'px;' +
             'height:' + this.size + 'px;' +
             'font-size:' + this.size + 'px;';
-        this.music.setAttribute('src',"music/1.mp3");
+        // this.music.setAttribute('src',"music/1.mp3");
         this.baseDiv.appendChild(this.fireworkDiv);
         this.divBox.appendChild(this.baseDiv);
         this.fireworkDiv.appendChild(this.music);
