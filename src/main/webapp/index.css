@@ -1,0 +1,35 @@
+*{
+    position: absolute;
+    z-index: 100;
+    overflow: inherit;
+    color: #ffbdf2;
+}
+
+
+@-webkit-keyframes animate1 {
+    0% {
+        font-size: 0;
+        color: #F64863;
+    }
+    20% {
+        font-size: 48px;
+        color: #ffc767;
+    }
+    40% {
+        font-size: 80px;
+        color: #ffc767;
+    }
+    60% {
+        font-size: 48px;
+        color: #ffc767;
+    }
+    80% {
+        font-size: 20px;
+        color: #ffc767;
+    }
+    100% {
+        font-size: 0;
+        color: #F64863;
+        display: none;
+    }
+}

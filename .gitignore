@@ -1,0 +1,30 @@
+*.pyc
+*.class
+*.a
+*.exe
+**/.vscode/**
+**/.mypy_cache/**
+**/.git/**
+**/.DS_Store
+**/env/**
+**/node_modules/**
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Idea Project Files #
+*.iml
+*.sql
+*.classpath
+*.project
+.idea/*
+bin/*
+target/*
+.settings/*
+# Image Files #
+*.jpg
+*.png
+*.gif
