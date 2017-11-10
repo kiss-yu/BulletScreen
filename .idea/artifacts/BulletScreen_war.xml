@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="BulletScreen:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="BulletScreen-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="BulletScreen:war exploded" />
-    </root>
-  </artifact>
-</component>
